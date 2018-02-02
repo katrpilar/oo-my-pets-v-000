@@ -28,13 +28,10 @@ class Owner
     "I am a #{self.species}."
   end
   
-<<<<<<< HEAD
   def pets
     @pets = {:fishes => [], :dogs => [], :cats => []}
-=======
   def self.pets
     @@pets = {:fishes => [], :dogs => [], :cats => []}
->>>>>>> d5cf00133f2c9f006d4366f71f3c02ea996c007f
   end
   
   def buy_fish(name)
